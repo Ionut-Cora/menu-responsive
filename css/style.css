@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {
+    height: 50px;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#toggle-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+}
+
+.seen {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+}
