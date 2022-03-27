@@ -31,6 +31,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: red;
 }
 
 li {
@@ -39,6 +40,10 @@ li {
 
 .seen {
     display: block;
+}
+
+#menu-toggle ion-icon {
+    color: red;
 }
 
 @media only screen and (max-width: 600px) {
